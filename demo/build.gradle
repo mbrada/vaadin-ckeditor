@@ -9,7 +9,7 @@ apply plugin: 'com.devsoap.plugin.vaadin'
 // Demo depends on the addon
 dependencies {
     compile project(':addon')
-    compile files('libs/ckeditor-1.0-SNAPSHOT.jar')
+//    compile files('libs/ckeditor-1.0-SNAPSHOT.jar')
 }
 
 vaadin {

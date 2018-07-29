@@ -42,6 +42,10 @@ vaadin {
     manageDependencies true;
 }
 
+vaadinCompile {
+    widgetset 'cz.miloslavbrada.ckeditor.CKEditorWidgetset'
+}
+
 jar {
     // Addon artifact name
     baseName = 'ckeditor'
